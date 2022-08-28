@@ -78,7 +78,7 @@ img {
   --section-color: #ffffff;
   --border-color-portfolio: #eeeeee;
   --footer-contact-color: #ffffff99;
-  --color-icon: #AFB1B8;
+  --color-icon: #afb1b8;
 }
 
 /* Шапка сайта */
@@ -136,7 +136,6 @@ img {
   margin-left: auto;
 }
 
-
 .adress-link {
   color: var(--portfolio-color);
   text-decoration: none;
@@ -152,32 +151,29 @@ img {
 .portfolio-current {
   color: var(--button-color);
 }
-.icon-contact{ 
+.icon-contact {
   width: 16px;
   height: 12px;
   cursor: pointer;
 }
-.icon-contact{
+.icon-contact {
   fill: var(--portfolio-color);
 }
 
 .adress-link:hover .icon-contact,
-.adress-link:focus .icon-contact{ 
+.adress-link:focus .icon-contact {
   fill: var(--button-color);
 }
 
-
-.icon-number{
+.icon-number {
   width: 10px;
   height: 16px;
   fill: var(--portfolio-color);
 }
 .adress-link:hover .icon-number,
-.adress-link:focus .icon-numder{ 
+.adress-link:focus .icon-numder {
   fill: var(--button-color);
 }
-
-
 
 .main-content {
 }
@@ -186,12 +182,10 @@ img {
   background-color: #c4c4c4;
   padding: 200px 0;
   text-align: center;
-  background-image:linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url('../img/jpg/background-image.jpg');
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url('../img/jpg/background-image.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
-  background-clip: padding-box;
-  back
 }
 .container-about-section {
   background-color: var(--footer-color);
@@ -254,14 +248,14 @@ img {
 .benefits-item {
   width: 270px;
 }
-.container-icon{
-  background-color:var(--background-color-benefit);
+.container-icon {
+  background-color: var(--background-color-benefit);
   padding-top: 25px;
   padding-bottom: 25px;
   text-align: center;
   margin-bottom: 30px;
 }
-.benefits-icon{
+.benefits-icon {
   width: 70px;
   height: 70px;
 }
@@ -340,12 +334,12 @@ img {
   letter-spacing: 0.03em;
   margin-bottom: 16px;
 }
-.social-network-list{
+.social-network-list {
   display: flex;
   justify-content: center;
   gap: 10px;
 }
-.social-network-link{
+.social-network-link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -354,25 +348,25 @@ img {
   border-radius: 50%;
   background-color: var(--section-color);
 }
-.social-network{
+.social-network {
   fill: #afb1b8;
   width: 20px;
   height: 20px;
 }
 .social-network-link:hover .social-network,
-.social-network-link:focus .social-network{
+.social-network-link:focus .social-network {
   fill: var(--section-color);
 }
 .social-network-link:hover,
-.social-network-link:focus{
+.social-network-link:focus {
   background-color: #2196f3;
 }
-.clients-section{
+.clients-section {
   padding-top: 98px;
   padding-bottom: 98px;
   text-align: center;
 }
-.clients-title{
+.clients-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
@@ -380,16 +374,15 @@ img {
   color: var(--link-color);
   margin-bottom: 50px;
 }
-.client-list{
+.client-list {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 30px;
 }
-.client-item{
- 
+.client-item {
 }
-.client-link{
+.client-link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -400,23 +393,21 @@ img {
 }
 
 .client-link:hover,
-.client-link:focus{
+.client-link:focus {
   border-color: var(--button-color);
 }
 .client-link:hover .client-icon,
-.client-link:focus .client-icon{
+.client-link:focus .client-icon {
   fill: var(--button-color);
 }
-.client-icon{
+.client-icon {
   fill: var(--color-icon);
   width: 106px;
   height: 60px;
 }
 
-
-
-.foot-container{
-  display: flex;  
+.foot-container {
+  display: flex;
   gap: 70px;
 }
 .webstudio-footer {
@@ -462,16 +453,16 @@ img {
   line-height: 1.7;
   letter-spacing: 0.03em;
 }
-.joing-section{
+.joing-section {
   margin-top: 12px;
 }
-.joing-list{
+.joing-list {
   display: flex;
   align-items: flex-start;
   justify-content: center;
   gap: 10px;
 }
-.joing-title{
+.joing-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
@@ -480,20 +471,20 @@ img {
   color: var(--section-color);
   margin-bottom: 20px;
 }
-.joing-link{
+.joing-link {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 44px;
   height: 44px;
   border-radius: 50%;
-  background-color:rgba(255, 255, 255, 0.1);
+  background-color: rgba(255, 255, 255, 0.1);
 }
 .joing-link:hover,
-.joing-link:focus{
+.joing-link:focus {
   background-color: var(--text-color);
 }
-.joing-icon{
+.joing-icon {
   width: 20px;
   height: 20px;
   fill: #ffffff;
@@ -527,7 +518,8 @@ img {
 .button-navigation:focus {
   background-color: var(--button-color);
   color: var(--section-color);
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
 }
 .portfolio-item {
@@ -562,7 +554,8 @@ img {
   margin-top: 50px;
 }
 .portfolio-item:hover,
-.portfolio-item:focus{
-  background: #FFFFFF;
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+.portfolio-item:focus {
+  background: #ffffff;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
