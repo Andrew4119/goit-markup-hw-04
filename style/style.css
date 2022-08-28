@@ -393,13 +393,12 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 32px;
-  padding-bottom: 32px;
   width: 170px;
   height: 92px;
   border: 1px solid rgba(175, 177, 184, 1);
   border-radius: 4px;
 }
+
 .client-link:hover,
 .client-link:focus{
   border-color: var(--button-color);
