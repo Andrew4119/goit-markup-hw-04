@@ -188,6 +188,7 @@ img {
   background-size: cover;
   width: 1600px;
   height: 600px;
+  margin: auto;
 }
 .container-about-section {
   background-color: var(--footer-color);
