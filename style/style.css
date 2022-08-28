@@ -186,6 +186,8 @@ img {
     url('../img/jpg/background-image.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+  width: 1600px;
+  height: 600px;
 }
 .container-about-section {
   background-color: var(--footer-color);
