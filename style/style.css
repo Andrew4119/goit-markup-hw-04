@@ -397,7 +397,7 @@ img {
   padding-bottom: 32px;
   width: 170px;
   height: 92px;
-  border: solid rgba(175, 177, 184, 1);
+  border: 1px solid rgba(175, 177, 184, 1);
   border-radius: 4px;
 }
 .client-link:hover,
