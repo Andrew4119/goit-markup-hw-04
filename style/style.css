@@ -348,13 +348,11 @@ img {
   width: 20px;
   height: 20px;
 }
-.social-network-link:hover .social-network,
-.social-network-link:focus .social-network {
-  fill: var(--section-color);
-}
+
 .social-network-link:hover,
 .social-network-link:focus {
   background-color: #2196f3;
+  color: var(--section-color);
 }
 .clients-section {
   padding-top: 98px;
@@ -385,18 +383,17 @@ img {
   height: 92px;
   border: 1px solid rgba(175, 177, 184, 1);
   border-radius: 4px;
+  color: var(--color-icon);
 }
 
 .client-link:hover,
 .client-link:focus {
   border-color: var(--button-color);
+  color: var(--text-color);
 }
-.client-link:hover .client-icon,
-.client-link:focus .client-icon {
-  fill: var(--button-color);
-}
+
 .client-icon {
-  fill: var(--color-icon);
+  fill: currentColor;
   width: 106px;
   height: 60px;
 }
